@@ -15,7 +15,7 @@
   min-height: 100vh;
 }
 .title {
-  font-size: 7em;
+  font-size: 10vh;
   text-align: center;
   width: 100vw;
   background-color: rgb(175, 148, 111);
@@ -23,12 +23,12 @@
   color: antiquewhite;
   -webkit-text-stroke: 3px black;
 }
-.canvas {
+#canvas {
   display: flex;
   flex-wrap: wrap;
-  width: 960px;
-  height: 960px;
-  border: 10px;
+  width: 700px;
+  height: 700px;
+
   border-color: black;
   border-style: solid;
   border-radius: 3px;
@@ -36,15 +36,27 @@
   align-self: center;
 }
 .square {
+  background-color: white;
+  border: black;
   border-style: solid;
-  border-color: black;
-  border-radius: 3px;
-  width: ;
-  height: ;
-}
-.square:hover {
-  color: black;
 }
 .settings {
-  display: flex;
+  text-align: center;
+  background-color: rgb(175, 148, 111);
+  flex: 1;
+}
+#reset-button {
+  font-size: 5vh;
+  background-color: rgb(66, 40, 14);
+  color: white;
+  margin-top: 1vh;
+  border-radius: 10px;
+  margin-right: 3vw;
+}
+#canvas-size-button {
+  font-size: 5vh;
+  background-color: rgb(66, 40, 14);
+  color: white;
+  margin-top: 1vh;
+  border-radius: 10px;
 }
